@@ -4,4 +4,6 @@ metadata:
   name: default
   annotations:
     "helm.sh/hook": post-install
+spec:
+  ImagePullSecrets: ""
 
