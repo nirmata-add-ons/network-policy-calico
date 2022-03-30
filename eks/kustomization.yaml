@@ -2,8 +2,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 bases:
 - ../base
-patches:
-- path: installation.yaml
-  target:
-    kind: Installation
 
