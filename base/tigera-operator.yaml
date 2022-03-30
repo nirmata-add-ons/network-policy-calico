@@ -5950,3 +5950,5 @@ metadata:
   annotations:
     "helm.sh/hook": post-install
 spec:
+  cni:
+    type: ""
