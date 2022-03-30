@@ -3619,6 +3619,9 @@ metadata:
   name: "default"
 apiVersion: "operator.tigera.io/v1"
 kind: "Installation"
+spec:
+  cni:
+    type: "AmazonVPC"
 ---
 apiVersion: "apiextensions.k8s.io/v1"
 kind: "CustomResourceDefinition"
