@@ -1,10 +1,10 @@
----
 apiVersion: operator.tigera.io/v1
 kind: Installation
 metadata:
-  name: eks
+  name: default
   annotations:
     "helm.sh/hook": post-install
 spec:
+  imagePullSecrets: ""
   cni:
     type: "AmazonVPC"
