@@ -4847,15 +4847,6 @@ status:
   conditions: []
   storedVersions: []
 ---
-# Source: aws-calico/templates/tigera-operator/00-namespace-tigera-operator.yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: tigera-operator
-  annotations:
-  labels:
-    name: tigera-operator
----
 # Source: aws-calico/templates/tigera-operator/02-podsecuritypolicy-tigera-operator.yaml
 # This should not be rendered for an OpenShift install.
 # OpenShift uses SecurityContextConstraints instead.
